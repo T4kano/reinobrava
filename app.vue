@@ -5,7 +5,7 @@
 useHead({
     title: "RNO Brava",
     link: [
-        { rel: "icon", type: "image/x-icon", href: "/wearereinobrava/favicon.ico" }
+        { rel: "icon", type: "image/x-icon", href: "/reinobrava/favicon.ico" }
     ]
 })
 </script>
