@@ -1,10 +1,11 @@
 <script setup>
-
+definePageMeta({ colorMode: "light" })
 </script>
 
 <template>
-<div>
-	<h1>Home</h1>
-	<UButton label="Click me" @click="() => alert('Hello!')" />
-</div>
+	<div>
+		<HomeHero class="mb-10" />
+		<HomeAbout class="mb-10" />
+		<HomeBento />
+	</div>
 </template>

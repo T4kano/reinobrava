@@ -1,2 +1,23 @@
 @import "tailwindcss" theme(static);
 @import "@nuxt/ui";
+
+:root {
+	--ui-text: var(--ui-color-neutral-950);
+}
+  
+
+@theme static {
+	--font-sans: 'Inter', sans-serif;
+
+	--color-lavanda-50: #F8F9FA;
+	--color-lavanda-100: #F1F2F6;
+	--color-lavanda-200: #E5E6EF;
+	--color-lavanda-300: #D0D2E2;
+	--color-lavanda-400: #D0D2E2;
+	--color-lavanda-500: #9696BC;
+	--color-lavanda-600: #807EA9;
+	--color-lavanda-700: #6E6B96;
+	--color-lavanda-800: #5B597E;
+	--color-lavanda-900: #4D4A68;
+	--color-lavanda-950: #303045;
+}

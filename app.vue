@@ -5,13 +5,13 @@
 useHead({
     title: "RNO Brava",
     link: [
-        { rel: "icon", type: "image/x-icon", href: "/sapi4/client/favicon.ico" }
+        { rel: "icon", type: "image/x-icon", href: "/wearereinobrava/favicon.ico" }
     ]
 })
 </script>
 
 <template>
-<div class="bg-neutral-50 dark:bg-[#0d1321] min-h-screen">
+<div class="bg-neutral-50 min-h-screen">
 	<NuxtLoadingIndicator />
 	<UApp>
 		<NuxtLayout>
