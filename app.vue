@@ -1,7 +1,4 @@
 <script setup>
-// import "flag-icon-css/css/flag-icons.min.css"
-
-// useAuthStore().$hydrate({ runHooks: false })
 useHead({
     title: "RNO Brava",
     link: [
