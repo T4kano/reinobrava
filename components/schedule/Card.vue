@@ -1,6 +1,5 @@
 <script setup>
 import moment from 'moment'
-moment.locale('pt-br')
 
 defineProps({
 	event: { type: Object, required: true, }
