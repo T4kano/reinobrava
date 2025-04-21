@@ -8,7 +8,7 @@ useHead({
 </script>
 
 <template>
-<div class="bg-neutral-50 min-h-screen">
+<div class="min-h-screen">
 	<NuxtLoadingIndicator />
 	<UApp>
 		<NuxtLayout>

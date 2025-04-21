@@ -4,7 +4,7 @@ const open = ref(false)
 
 const items = [
 	{ label: "Agenda", to: "/schedule" },
-	{ label: "Essentials", to: "/essentials" },
+	{ label: "Evento", to: "/event" },
 ]
 
 watch(route, () => open.value = false)
@@ -18,7 +18,7 @@ watch(route, () => open.value = false)
 		<UButton icon="i-heroicons-bars-3" variant="ghost" class="md:hidden" size="sm" />
 
 		<template #header>
-			<a href="/" class="flex items-center font-bold gap-2">
+			<a href="/reinobrava" class="flex items-center font-bold gap-2">
 				<img src="/assets/img/brand.png" alt="Logo Reino Brava" class="invert w-8" />
 				<span>BRAVA</span>
 			</a>

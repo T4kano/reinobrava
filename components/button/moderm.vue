@@ -24,7 +24,6 @@ defineProps({ label: { type: String } })
 	padding: 16px 36px;
 	border: 4px solid;
 	border-color: transparent;
-	font-size: 16px;
 	background-color: inherit;
 	border-radius: 100px;
 	font-weight: 600;
